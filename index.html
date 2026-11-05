@@ -1,80 +1,16 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hant">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的第一個 RWD 網站</title>
-    <style>
-        /* 基礎樣式 */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-            text-align: center;
-        }
-        header {
-            background-color: #24292e;
-            color: white;
-            padding: 40px 20px;
-        }
-        .container {
-            padding: 20px;
-            max-width: 800px;
-            margin: auto;
-        }
-        .card-group {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
-        .card {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-            margin: 10px;
-            padding: 20px;
-            flex: 1 1 250px; /* 這行是 RWD 彈性排版的關鍵 */
-        }
-        footer {
-            background-color: #24292e;
-            color: #aaa;
-            padding: 15px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>順益租賃股份有限公司｜首頁</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <header>
-        <h1>歡迎來到我的 AI 創建網站</h1>
-        <p>這是一個具備響應式設計（RWD）的網頁</p>
-    </header>
-
-    <div class="container">
-        <h2>今日學習心得</h2>
-        <p>老師說在 AI 資訊爆炸的時代，要學會自己主動利用 AI 截圖發問、一步步解決問題！</p>
-        
-        <div class="card-group">
-            <div class="card">
-                <h3>📱 手機模式</h3>
-                <p>當你在手機上看時，卡片會自動垂直單欄排列，方便閱讀。</p>
-            </div>
-            <div class="card">
-                <h3>💻 電腦模式</h3>
-                <p>當你在電腦大螢幕上看時，卡片會自動橫向並排，充分利用空間。</p>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        使用 GitHub Pages 免費網頁託管服務
-    </footer>
-
-</body>
-</html>
+<header class="site-header"><a class="brand" href="index.html"><span class="brand-mark">順</span><span>順益租賃股份有限公司<small>SHUNG YE LEASING CO., LTD.</small></span></a>
+<nav><a class="active" href="index.html">首頁</a><a href="about.html">公司介紹</a><a href="contact.html">與我聯絡</a></nav></header>
+<main>
+<section class="hero"><div class="hero-copy"><p class="eyebrow">SHUNG YE LEASING</p><h1>值得信賴的車輛租賃夥伴</h1><p>依照您的營運需求，提供合適的車輛租賃規劃與專業服務。</p><a class="button" href="contact.html">立即洽詢</a></div><div class="hero-art"><div class="road"></div><div class="truck">🚚</div><div class="car">🚙</div><div class="city">台灣・專業車輛租賃</div></div></section>
+<section class="section"><div class="section-heading"><p class="eyebrow">OUR SERVICES</p><h2>選擇適合您的租賃方案</h2><p>彈性規劃，讓每一次用車需求都更簡單。</p></div>
+<div class="cards"><article class="card"><div class="icon">🚛</div><h3>商用車租賃</h3><p>依照工作型態與載運需求，洽詢合適的商用車輛方案。</p></article><article class="card"><div class="icon">🚗</div><h3>乘用車租賃</h3><p>提供日常代步與企業用車需求的租賃諮詢。</p></article><article class="card"><div class="icon">🤝</div><h3>專人服務</h3><p>由服務人員了解您的需求，協助規劃租賃方式。</p></article></div></section>
+<section class="cta"><div><h2>正在尋找合適的車輛租賃方案？</h2><p>歡迎留下聯絡資料，我們將與您聯繫。</p></div><a class="button light" href="contact.html">聯絡我們</a></section>
+</main><footer>© 順益租賃股份有限公司 SHUNG YE LEASING CO., LTD.</footer>
+</body></html>
